@@ -17,7 +17,7 @@ int *create(int rows, int columns)
  
 }
 
-void multiplication(int mat1[0], int mat2[0], int rows, int columns)
+void multiplication(int *mat1, int *mat2, int rows, int columns)
 {
     int *result = (int*)malloc(rows*columns*sizeof(int));
     for (int i=0; i<rows; i++)
